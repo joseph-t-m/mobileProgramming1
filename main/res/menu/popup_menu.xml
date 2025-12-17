@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/download"
+    android:icon="@drawable/baseline_assistant_24"
+    android:title="download" />
+
+    <item
+        android:id="@+id/attach"
+        android:icon="@drawable/baseline_brightness_7_24"
+        android:title="attach" />
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/baseline_compass_calibration_24"
+        android:title="back" />
+
+    <item
+        android:id="@+id/approve"
+        android:icon="@drawable/round_10k_24"
+        android:title="approve" />
+
+</menu>
