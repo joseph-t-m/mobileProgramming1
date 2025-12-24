@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/i1"
+        android:title="Submenu 1"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/s11"
+                android:icon="@drawable/baseline_fingerprint_24"
+                android:title="Item 1 from submenu 1"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/s12"
+                android:icon="@drawable/baseline_3p_24"
+                android:title="Item 2 from submenu 1"
+                app:showAsAction="ifRoom|withText"
+
+                />
+            <item
+                android:id="@+id/s13"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="Item 3 from submenu 1"
+                app:showAsAction="ifRoom|withText" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/i2"
+        android:title="Submenu 2"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/s21"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="Item 1 from submenu 2"
+                app:showAsAction="ifRoom|withText"
+
+                />
+            <item
+                android:id="@+id/s22"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="Item 2 from submenu 2"
+                app:showAsAction="ifRoom|withText"
+                />
+        </menu>
+    </item>
+</menu>
